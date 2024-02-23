@@ -29,6 +29,27 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### File Structure
+
+    src/components: Contains React components used in the application.
+        Home.js: Main component responsible for displaying the college search interface, sorting functionality, and rendering college data.
+        Loader.js: Component for displaying a loading spinner while data is being fetched.
+    src/data: Contains JSON data files used for testing and demo purposes.
+    src/App.js: Main component that renders the application.
+    src/index.js: Entry point of the application.
+
+### Sorting Functionality
+
+    The sorting functionality is implemented in the Home.js component.
+    It allows users to sort colleges based on various criteria such as popularity, rating, highest fees, and lowest fees.
+    The handleSort function in Home.js is responsible for sorting the displayed colleges based on the user's selection.
+
+### Search Functionality
+
+    The search functionality is also implemented in the Home.js component.
+    It allows users to search for colleges by name.
+    The searchCollege function in Home.js filters the displayed colleges based on the user's search query, matching against the college names.
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
@@ -58,24 +79,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-### File Structure
-
-    src/components: Contains React components used in the application.
-        Home.js: Main component responsible for displaying the college search interface, sorting functionality, and rendering college data.
-        Loader.js: Component for displaying a loading spinner while data is being fetched.
-    src/data: Contains JSON data files used for testing and demo purposes.
-    src/App.js: Main component that renders the application.
-    src/index.js: Entry point of the application.
-
-### Sorting Functionality
-
-    The sorting functionality is implemented in the Home.js component.
-    It allows users to sort colleges based on various criteria such as popularity, rating, highest fees, and lowest fees.
-    The handleSort function in Home.js is responsible for sorting the displayed colleges based on the user's selection.
-
-### Search Functionality
-
-    The search functionality is also implemented in the Home.js component.
-    It allows users to search for colleges by name.
-    The searchCollege function in Home.js filters the displayed colleges based on the user's search query, matching against the college names.
