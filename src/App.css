@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  text-align: center;
+}
+
+span {
+  color: #666;
+}
+.text-orange {
+  color: #ff7900;
+}
+.heading {
+  background-color: #88bdc4 !important;
+}
+.college {
+  color: #4fb8dd;
+}
+
+.heading {
+  background-color: #88bdc4 !important;
+}
+th {
+  --bs-table-color: white;
+  --bs-table-bg: #88bdc4;
+}
+.text-green {
+  color: #3eae8d;
+}
+
+.college-cutoff {
+  background: #fff9e4;
+  border-left: 2px solid #ff7900;
+}
+
+.text-review {
+  color: #c86c80;
+}
+
+.college-ranking {
+  background: #eaf9fe;
+  border-left: 2px solid #42aee8;
+}
+
+.text-ranking {
+  color: #42aee8;
+}
